@@ -14,3 +14,13 @@ To deploy this project run
   git remote add origin "url de tu repo creada en Git Hub"
 ```
 
+## Creacion y manejo de Branchs(Ramas)
+
+To deploy this project run
+
+```bash
+  git switch -c "rama nueva" #para crear y cambiar ala rama
+  git switch "rama nueva" #para crear rama neuva sn cambiarme a esta
+  git branch -d "rama" #elimina de manera local
+  git push origin --delete "rama" #elimina en la rama remota en Git Hub
+```
